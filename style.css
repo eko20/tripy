@@ -1,0 +1,112 @@
+body {
+  background-color: #f8ede3;
+  font-family: "Poppins", sans-serif;
+}
+
+.tripy {
+  color: #f8ede3;
+  font-size: 8rem;
+  font-family: "Caveat", cursive;
+}
+
+.ct1 {
+  background-image: url("island.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.h2-yol {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin: 0; /* Remove any default margin */
+  text-align: center; /* Center the text horizontally */
+}
+
+.rehber {
+  display: inline-block; /* Make the div size itself to its content */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/*feature*/
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.75rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: 0.125rem;
+  margin-left: 0.125rem;
+  transition: transform 0.25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link:hover > .bi {
+  transform: translate(0.25rem);
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.rounded-4 {
+  border-radius: 0.5rem;
+}
+.rounded-5 {
+  border-radius: 1rem;
+}
+
+.text-shadow-1 {
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-3 {
+  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
