@@ -99,9 +99,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.team3{
-  margin-bottom: 5rem;
-}
+
 
 
 .head {
@@ -112,6 +110,16 @@ body {
 img {
   border-radius: 50%;
 }
+
+
+.cont1 {
+  text-align: end;
+}
+
+.cont2 {
+  text-align: start;
+}
+
 
 
 
@@ -130,7 +138,19 @@ img {
     margin-bottom: 0rem;
   }
   
-  
+  .cont1 {
+    text-align: center !important;
+    margin-bottom: 3rem;
+  }
+  .cont2 {
+    text-align: center !important;
+    margin-bottom: 3rem;
+  }
 
 
+  .cimg {
+    margin: auto !important;
+    margin-top: 1rem !important;
+    
+  }
 }
