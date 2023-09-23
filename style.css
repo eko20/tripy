@@ -100,11 +100,37 @@ body {
 }
 
 .team3{
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 
 .head {
-  max-width: 12rem;
-  max-height: 12rem;
+  max-width: 11rem;
+  max-height: 11rem;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  .mobile {
+    margin-bottom: 5rem;
+  }
+
+  .team1 {
+    margin-bottom: 0rem;
+  }
+  
+  .team2 {
+    margin-bottom: 0rem;
+  }
+  
+  
+
+
 }
