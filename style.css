@@ -125,6 +125,15 @@ img {
 
 
 @media only screen and (max-width: 768px) {
+
+  .h2-yol {
+    margin-top: 2rem;
+  }
+
+  .trip1 {
+    margin-top: 5rem !important;
+    margin-bottom: 0;
+  }
   
   .mobile {
     margin-bottom: 5rem;
@@ -152,5 +161,9 @@ img {
     margin: auto !important;
     margin-top: 1rem !important;
     
+  }
+
+  .headingcon {
+    margin-bottom: 3rem !important;
   }
 }
