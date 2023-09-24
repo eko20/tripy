@@ -134,6 +134,14 @@ img {
     margin-top: 5rem !important;
     margin-bottom: 0;
   }
+
+  .text-body-emphasis {
+    font-size: 2rem !important;
+  }
+
+  .teamhead {
+    font-size: 2.5rem;
+  }
   
   .mobile {
     margin-bottom: 5rem;
@@ -164,6 +172,14 @@ img {
   }
 
   .headingcon {
+    
     margin-bottom: 3rem !important;
+  }
+
+  .conhead1 {
+    font-size: 2.5rem;
+  }
+  .contdiv {
+    margin-bottom: 0 !important;
   }
 }
