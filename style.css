@@ -84,11 +84,38 @@ body {
   background-size: cover;
 }
 
-.team {
+
+.divcar {
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+  height: 30rem;
+}
+
+.carouselimg {
+  max-width: 22rem;
+  height: auto;
   
+}
+
+
+
+.imghead {
+  text-align: left;
+  justify-content: start;
+  width: 35rem;
+  margin: auto 10rem auto 2rem;
+  
+}
+
+
+
+
+
+
+
+.team {
   background-color: #a2b29f;
   text-align: center;
-  
 }
 
 .team1 {
@@ -99,18 +126,14 @@ body {
   margin-bottom: 4rem;
 }
 
-
-
-
 .head {
   max-width: 11rem;
   max-height: 11rem;
 }
 
-img {
+.head {
   border-radius: 50%;
 }
-
 
 .cont1 {
   text-align: end;
@@ -120,12 +143,7 @@ img {
   text-align: start;
 }
 
-
-
-
-
 @media only screen and (max-width: 768px) {
-
   .h2-yol {
     margin-top: 2rem;
   }
@@ -139,10 +157,57 @@ img {
     font-size: 2rem !important;
   }
 
+  .imghead {
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-right: 0rem ;
+    
+    
+    
+  }
+
+  .divcar {
+    margin-top: 1rem;
+    margin-bottom: 25rem !important;
+    
+  }
+  .carouselimg {
+    max-width: 25rem !important;
+    
+    
+    
+  }
+  
+  .parentcar {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+    margin-left: 1.8rem;
+    padding-right: 2rem;
+  }
+  
+  .hiddendiv {
+    height: 0;
+  }
+
+  .py-4 {
+    margin-bottom: 1rem !important;
+  }
+
+  .feature {
+    margin-bottom: 0rem !important;
+  }
+
+  .text-body-emphasis {
+    margin-bottom: 1rem !important;
+  }
+
   .teamhead {
     font-size: 2.5rem;
   }
-  
+
   .mobile {
     margin-bottom: 5rem;
   }
@@ -150,11 +215,11 @@ img {
   .team1 {
     margin-bottom: 0rem;
   }
-  
+
   .team2 {
     margin-bottom: 0rem;
   }
-  
+
   .cont1 {
     text-align: center !important;
     margin-bottom: 3rem;
@@ -164,15 +229,12 @@ img {
     margin-bottom: 3rem;
   }
 
-
   .cimg {
     margin: auto !important;
     margin-top: 1rem !important;
-    
   }
 
   .headingcon {
-    
     margin-bottom: 3rem !important;
   }
 
