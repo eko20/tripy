@@ -84,8 +84,22 @@ body {
   background-size: cover;
 }
 
+.fadesection {
+  margin-bottom: 5rem;
+}
 
+.carousel {
+  width: 20rem;
+  height: auto;
+  margin-right: 3rem !important;
+}
 
+.fadetext {
+  margin-left: 0;
+  display: flex;
+
+  max-width: 35rem;
+}
 
 .team {
   background-color: #a2b29f;
@@ -127,14 +141,30 @@ body {
     margin-bottom: 0;
   }
 
-  
-
   .feature {
     margin-bottom: 0rem !important;
   }
 
   .text-body-emphasis {
     margin-bottom: 1rem !important;
+  }
+
+  .fadesection {
+    margin-bottom: 3rem;
+  }
+  
+  .carousel {
+    width: 15rem;
+    height: auto;
+    margin: auto !important;
+  }
+  
+  .fadetext {
+    margin-top: 3rem;
+    margin-left: 0;
+    display: flex;
+    text-align: center;
+    
   }
 
   .teamhead {
