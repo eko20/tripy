@@ -85,32 +85,6 @@ body {
 }
 
 
-.divcar {
-  margin-top: 1rem;
-  margin-bottom: 6rem;
-  height: 30rem;
-}
-
-.carouselimg {
-  max-width: 22rem;
-  height: auto;
-  
-}
-
-
-
-.imghead {
-  text-align: left;
-  justify-content: start;
-  width: 3rem;
-  margin: auto 11rem auto 2rem;
-  
-}
-
-
-
-
-
 
 
 .team {
@@ -153,51 +127,7 @@ body {
     margin-bottom: 0;
   }
 
-  .text-body-emphasis {
-    font-size: 2rem !important;
-  }
-
-  .imghead {
-    text-align: center;
-    justify-content: center;
-    margin-top: 5rem;
-    margin-right: 0rem ;
-    
-    
-    
-    
-  }
-
   
-
-  .divcar {
-    margin-top: 1rem;
-    margin-bottom: 25rem !important;
-    
-  }
-  .carouselimg {
-    max-width: 25rem !important;
-    
-    
-    
-  }
-  
-  .parentcar {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    height: 100% !important;
-    margin-left: 1.8rem;
-    padding-right: 2rem;
-  }
-  
-  .hiddendiv {
-    height: 0;
-  }
-
-  .py-4 {
-    margin-bottom: 1rem !important;
-  }
 
   .feature {
     margin-bottom: 0rem !important;
