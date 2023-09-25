@@ -102,8 +102,8 @@ body {
 .imghead {
   text-align: left;
   justify-content: start;
-  width: 35rem;
-  margin: auto 10rem auto 2rem;
+  width: 36rem;
+  margin: auto 11rem auto 2rem;
   
 }
 
@@ -165,7 +165,10 @@ body {
     
     
     
+    
   }
+
+  
 
   .divcar {
     margin-top: 1rem;
